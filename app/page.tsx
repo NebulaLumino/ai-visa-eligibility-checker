@@ -99,7 +99,7 @@ export default function Home() {
             <div>
               <label className="block text-sm font-medium text-gray-300 mb-2">Visa Type Interest</label>
               <select name="visaType" value={form.visaType} onChange={handleChange} className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500">
-                <option value="">General assessment">General assessment (all types)</option>
+                <option value="General assessment (all types)">General assessment (all types)</option>
                 <option value="Employment-based">Employment-based (H-1B, L-1, O-1)</option>
                 <option value="Investor/Entrepreneur">Investor/Entrepreneur (E-2, EB-5)</option>
                 <option value="Family-based">Family-based</option>
